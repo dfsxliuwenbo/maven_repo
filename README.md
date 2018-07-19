@@ -10,3 +10,8 @@ dfsx push code repository
     <string name="xiaomi_appid">2882303761517838776</string>
     <string name="xiaomi_appkey">5331783867776</string>
     <string name="xiaomi_appsecret">1vn6FAaLaUTh0mRXpSJW8w==</string>
+    
+使用：
+ maven { url 'https://github.com/dfsxliuwenbo/maven_repo/raw/master/' }
+ 
+ compile 'com.dfsx.push:dfsxAliyunpsuh:0.0.1@aar'
