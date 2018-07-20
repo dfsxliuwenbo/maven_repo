@@ -18,6 +18,8 @@ dfsx push code repository
  
  在主工程里面的 APP包名下面新建.aliapi.AliPopupPushActivity。继承自BasePopupPushActivity。
  并在Manifest注册。
+ 
+ 
       public class AliPopupPushActivity extends BasePopupPushActivity {
       }
 
