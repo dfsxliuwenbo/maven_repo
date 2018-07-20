@@ -15,3 +15,14 @@ dfsx push code repository
  maven { url 'https://github.com/dfsxliuwenbo/maven_repo/raw/master/' }
  
  compile 'com.dfsx.push:dfsxAliyunpsuh:0.0.1@aar'
+ 
+ 在主工程里面的 APP包名下面新建.aliapi.AliPopupPushActivity。继承自BasePopupPushActivity。
+ 并在Manifest注册。
+      public class AliPopupPushActivity extends BasePopupPushActivity {
+      }
+
+     <activity
+            android:name="{APP 的包名}.aliapi.AliPopupPushActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"/>
