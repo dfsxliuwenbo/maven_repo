@@ -1,4 +1,9 @@
 # maven_repo
+
+dfsx 的公用库集成
+
+一、
+
 dfsx push code repository
 版本列表：
 
@@ -43,3 +48,17 @@ dfsx push code repository
    AliyunPushManager.getInstance().regsiterThirdPush(applicationContext);
    //设置推送消息监听
    AliyunPushManager.getInstance().setListener(XXXXXXX);
+   
+   
+二、
+
+检查更新功能：
+
+版本 0.0.1
+
+        compile 'com.dfsx.update:dfsxUpdate:0.0.1@aar'
+
+支持自定义检查方法:
+
+        checkForDialog(FragmentActivity fragmentActivity, String url, IApkUpdateChecker checker)
+
