@@ -1,6 +1,10 @@
 # maven_repo
 
-dfsx 的公用库集成
+dfsx 的公用库集成:
+
+仓库地址：
+
+        maven { url 'https://github.com/dfsxliuwenbo/maven_repo/raw/master/' }
 
 一、
 
