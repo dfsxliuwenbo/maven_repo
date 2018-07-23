@@ -36,7 +36,9 @@ dfsx push code repository
             android:launchMode="singleTop"/>
 
 使用:
+
    在Application中调注册以下代码：
+   
    AliyunPushManager.getInstance().initAndRegister(applicationContext, new CommonCallback());
    AliyunPushManager.getInstance().regsiterThirdPush(applicationContext);
    //设置推送消息监听
