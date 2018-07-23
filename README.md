@@ -17,7 +17,7 @@ dfsx push code repository
     <string name="xiaomi_appkey">5331783867776</string>
     <string name="xiaomi_appsecret">1vn6FAaLaUTh0mRXpSJW8w==</string>
     
-使用：
+集成方式：
  maven { url 'https://github.com/dfsxliuwenbo/maven_repo/raw/master/' }
  
  compile 'com.dfsx.push:dfsxAliyunpsuh:{版本号}@aar'
@@ -34,3 +34,10 @@ dfsx push code repository
             android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTop"/>
+
+使用:
+   在Application中调注册以下代码：
+   AliyunPushManager.getInstance().initAndRegister(applicationContext, new CommonCallback());
+   AliyunPushManager.getInstance().regsiterThirdPush(applicationContext);
+   //设置推送消息监听
+   AliyunPushManager.getInstance().setListener(XXXXXXX);
