@@ -65,4 +65,25 @@ dfsx push code repository
 支持自定义检查方法:
 
         checkForDialog(FragmentActivity fragmentActivity, String url, IApkUpdateChecker checker)
+        
+三、
+
+ 统计功能
+ 
+ 版本 0.0.1
+ 
+ 集成
+ 
+        compile 'com.dfsx.statistics:dfsxStatistics:0.0.1@aar'
+ 
+ 配置参数
+ 
+        <string name="statistics_app_authorities">com.dfsx.dazhoucms.app.TENCENT.MID.V3</string><!--你的包名.TENCENT.MID.V3 -->
+        <string name="statistics_app_key">ACT58LTH5E7U</string>
+        <string name="statistics_app_channel">dfsx</string>
+ 
+ 使用：
+ 
+        StatisticUtils.initAndStart(this);
+        StatisticUtils.onUserIPStatistic(this);
 
