@@ -61,8 +61,9 @@ dfsx push code repository
 检查更新功能：
 
 版本 0.0.1
+版本 0.0.2
 
-        compile 'com.dfsx.update:dfsxUpdate:0.0.1@aar'
+        compile 'com.dfsx.update:dfsxUpdate:0.0.2@aar'
 
 支持自定义检查方法:
 
