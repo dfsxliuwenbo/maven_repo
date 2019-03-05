@@ -91,12 +91,20 @@ dfsx push code repository
         StatisticUtils.onUserIPStatistic(this);
 
 四、
+
  语音合成功能
+ 
    版本：
+   
         1.0.0 (基于百度的语音技术集成)
+		
+		1.0.1 添加默认新闻阅读的播放状态回调
    集成：
+   
         compile 'com.dfsx.readtext:dfsxTTSRead:1.0.0@aar'
+		
    参数配置：
+   
      1.使用res文件静态注册：
 
     <string name="baidu_tts_appId">15677704</string>
