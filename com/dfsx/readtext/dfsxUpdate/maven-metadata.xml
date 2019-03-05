@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.dfsx.readtext</groupId>
+  <artifactId>dfsxUpdate</artifactId>
+  <version>1.0.0</version>
+  <versioning>
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20190305065446</lastUpdated>
+  </versioning>
+</metadata>
