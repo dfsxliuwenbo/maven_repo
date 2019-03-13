@@ -100,7 +100,7 @@ dfsx push code repository
    
         1.0.0 (基于百度的语音技术集成)
 		
-		1.0.1 添加默认新闻阅读的播放状态回调
+		1.0.2 添加默认新闻阅读的播放状态回调
    集成：
    
         compile 'com.dfsx.readtext:dfsxTTSRead:1.0.0@aar'
