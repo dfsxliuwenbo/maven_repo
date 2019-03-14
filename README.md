@@ -128,3 +128,4 @@ dfsx push code repository
     2.也可以使用代码创建 InitConfig 对象，public void init(InitConfig initConfig, Action1<Boolean> action)；
 
     3.使用，使用TTSReadManager 对象使用， 或扩展TTSReadManager 来使用。（可以参照扩展的新闻阅读功能NewsReadHelper的实现）
+    
